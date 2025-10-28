@@ -1,0 +1,74 @@
+/* Estilo general del cuerpo de la página */
+body {
+  background: linear-gradient(to right, #f198de, #d088e6); /* Fondo degradado */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente moderna */
+  color: #eb6bda;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor central */
+.container {
+  max-width: 800px;         /* Ancho máximo del contenido */
+  margin: 0 auto;           /* Centrar horizontalmente */
+  padding: 30px;
+  background-color: hsl(0, 0%, 100%); /* Fondo blanco para destacar sobre el fondo degradado */
+  box-shadow: 0 4px 8px rgba(199, 194, 198, 0.815); /* Sombra suave */
+  border-radius: 10px;      /* Bordes redondeados */
+  text-align: center;       /* Centrar textos */
+}
+
+/* Encabezados con estilo */s
+h1 {
+  color: #993bf0;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #c62828;
+  margin-bottom: 10px;
+}
+
+h4, h5, h6 {
+  color: #6a1b9a;
+  margin-bottom: 10px;
+}
+
+/* Estilo para los párrafos */
+p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Texto identificado dentro de span */
+span {
+  color: green;
+  font-weight: bold;
+}
+
+/* Estilo para los enlaces */
+a {
+  color: #d84315;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Imagen con borde y tamaño fijo */
+img {
+  width: 500px;
+  height: 400px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-top: 20px;
+}
