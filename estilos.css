@@ -66,9 +66,10 @@ a:hover {
 
 /* Imagen con borde y tamaño fijo */
 img {
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
   border: 2px solid #ccc;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
+
