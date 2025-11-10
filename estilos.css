@@ -65,11 +65,31 @@ a:hover {
 }
 
 /* Imagen con borde y tamaño fijo */
+/* regla original reemplazada para hacer las imágenes responsivas */
 img {
-  width: 400px;
-  height: 300px;
+  width: 100%;
+  max-width: 500px;       /* límite en pantallas grandes */
+  height: auto;           /* mantiene la proporción */
+  aspect-ratio: 5 / 4;    /* opcional: mantiene una relación constante */
   border: 2px solid #ccc;
   border-radius: 10px;
-  margin-top: 10px;
+  margin: 20px auto 0;
+  display: block;         /* centra cuando width:100% y max-width está activo */
+  object-fit: cover;
 }
+
+/* Ajustes específicos para pantallas pequeñas */
+@media (max-width: 480px) {
+  .container {
+    padding: 16px;
+  }
+
+  img {
+    max-width: 100%;
+    margin-top: 12px;
+    border-width: 1px;
+    border-radius: 8px;
+  }
+}
+
 
